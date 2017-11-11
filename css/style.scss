@@ -1,1 +1,36 @@
 /* SCSS uncompiled style for Hummify. */
+@import url('https://fonts.googleapis.com/css?family=Spectral+SC:300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Rouge+Script');
+
+$font_fancy: 'Spectral SC', serif;
+$font_very_fancy: 'Rouge Script', cursive;
+
+$col_off_black: #101010;
+
+body {
+    font-family: $font_fancy;
+    color: $col_off_black;
+}
+h1 {
+    font-family: $font_very_fancy;
+    color: $col_off_black;
+    font-size: 46pt;
+}
+
+input, button, select {
+    font-family: $font_fancy;
+    border: 1px solid $col_off_black;
+    border-radius: 2px;
+}
+
+#content-container {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+}
+#title-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
